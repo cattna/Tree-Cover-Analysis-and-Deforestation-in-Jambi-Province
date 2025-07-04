@@ -16,6 +16,7 @@ Database Integration: Employs PostgreSQL with the PostGIS extension for efficien
 
 Priority Area Identification: Highlights regions with the highest tree cover loss to focus mitigation efforts.
 
+```
 Project Structure
 tree-cover-jambi/
 ├── batas_administrasi_jambi/
@@ -29,6 +30,7 @@ tree-cover-jambi/
 └── output/
     ├── grafik_deforestasi_total.png
     └── peta_deforestasi_total.html
+```
 batas_administrasi_jambi/: Contains shapefile for Jambi Province's administrative boundaries.
 
 grafik_total.ipynb: Jupyter Notebook containing code for data analysis and generating total tree cover loss graphs per regency/city.
